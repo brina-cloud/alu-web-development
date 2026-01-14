@@ -1,20 +1,44 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: lavenderblush;
 }
 
  main {
     display: flex;
     flex-direction: row;
     flex: auto;
+
  }
 
     article {
         flex: 2;
         overflow-y: auto;
+        border: 0caps;
+        font-style: oblique;
+        padding: 10px;
+
     }
     aside {
         flex: 1;
         overflow-y: auto;
+        background-color: lightpink;
+        
+        
 
     }
+
+footer {
+    color:black;
+    border-style: double;
+    padding: 10px;
+    font-style: italic;
+    font-display: oblique;
+
+
+}
+
+logo {
+    font-weight: bold;
+    
+}
